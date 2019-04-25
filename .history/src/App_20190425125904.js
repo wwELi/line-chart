@@ -6,7 +6,12 @@ import LineChart from './line-chart';
 
 function App() {
   return (
-    <LineChart />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <Line-Chart />
+      </header>
+    </div>
   );
 }
 
